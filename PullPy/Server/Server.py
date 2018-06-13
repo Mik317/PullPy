@@ -46,8 +46,8 @@ class Server(object):
     
     @cherrypy.expose
     def index(self):
-        raise cherrypy.HTTPRedirect("/dashboard")
         cherrypy.log("USER: {} \n\tPASSWD: {}".format(USER, PASSWD))
+        raise cherrypy.HTTPRedirect("/dashboard")
         
     @cherrypy.expose('dashboard')
     def dashboard(self):
