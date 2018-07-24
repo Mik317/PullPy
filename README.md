@@ -12,3 +12,5 @@ The data are saved into the db after an hexadecimal encoding (avoiding SQL Injec
 
 #### This botnet have been created only for study purpose, and have been written for show how a botnet work, but it isn't an ideal botnet
 #### Guide here: https://www.inforge.net/forum/resources/creare-una-pull-botnet.14960/
+
+See another botnet with extraction functionality here: https://github.com/Mik317/PyBotnet
